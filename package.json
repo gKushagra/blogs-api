@@ -1,0 +1,26 @@
+{
+  "name": "blogs-api",
+  "version": "1.0.0",
+  "description": "REST api for blogs app",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon index.js",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "webpack"
+  },
+  "author": "Kushagra Gupta",
+  "license": "Apache-2.0",
+  "dependencies": {
+    "aws-sdk": "^2.1379.0",
+    "dotenv": "^16.0.3",
+    "express": "^4.18.2",
+    "uuid": "^9.0.0"
+  },
+  "devDependencies": {
+    "clean-webpack-plugin": "^4.0.0",
+    "nodemon": "^2.0.22",
+    "webpack": "^5.83.1",
+    "webpack-cli": "^5.1.1",
+    "webpack-node-externals": "^3.0.0"
+  }
+}
