@@ -4,8 +4,6 @@ WORKDIR /usr/src/app
 
 COPY package.json ./
 
-COPY /www ./
-
 # install dependencies
 RUN npm install
 
